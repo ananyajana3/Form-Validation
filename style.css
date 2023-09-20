@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+.wrapper{
+    width: 619px;
+    margin: 0 auto;
+}
+
+label{
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 49px;
+    font-weight: bold;
+}
+
+input{
+    width: 320px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px 5px 12px 5px;
+    margin-top: 31px;
+}
+
+#submitbtn{
+    width: 150px;
+    margin-left: 251px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+#box{
+    background-color: #62a1be2e;
+    margin-top: 90px;
+}
+
+#errors{
+    color: red;
+    font-size: 15px;
+    position: relative;
+    left: 588px;
+}
+
+#success{
+    color: green;
+    font-size: 15px;
+    position: relative;
+    left: -69px;
+}
